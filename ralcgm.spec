@@ -33,7 +33,7 @@ Mo¿e byæ u¿ywany przez ImageMagick do konwersji z formatu CGM.
 %patch -p1
 
 %build
-OPT="%{?debug:-O0 -g}%{!?debug:$RPM_OPT_FLAGS}" \
+OPT="%{rpmcflags}" \
 ./CGMconfig linux <<EOF
 
 y
