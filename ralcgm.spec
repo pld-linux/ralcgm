@@ -2,7 +2,7 @@ Summary:	CGM metafiles interpreter and translator
 Summary(pl):	Interpreter i konwerter plików CGM
 Name:		ralcgm
 Version:	3.50
-Release:	2
+Release:	3
 Group:		Applications/Graphics
 License:	non-profit - see README
 Source0:	ftp://ftp.cc.rl.ac.uk/pub/graphics/ralcgm/unix/%{name}-%{version}.tar.Z
@@ -44,7 +44,7 @@ y
 y
 y
 n
-/usr/X11R6/lib
+/usr/X11R6/%{_lib}
 y
 n
 y
