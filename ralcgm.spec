@@ -23,8 +23,8 @@ It can be used as ImageMagick delegate to convert from CGM format.
 
 %description -l pl
 RAL-CGM jest programem do interpretowania i konwersji plików CGM
-(Computer Graphics Metafile) do innych formatów lub w celu wy¶wietlenia
-albo wydrukowania.
+(Computer Graphics Metafile) do innych formatów lub w celu
+wy¶wietlenia albo wydrukowania.
 
 Mo¿e byæ u¿ywany przez ImageMagick do konwersji z formatu CGM.
 
