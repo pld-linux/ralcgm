@@ -6,6 +6,7 @@ Release:	2
 Group:		Applications/Graphics
 License:	non-profit - see README
 Source0:	ftp://ftp.cc.rl.ac.uk/pub/graphics/ralcgm/unix/%{name}-%{version}.tar.Z
+# Source0-md5:	c132d8533527c35eb99581ed7cc738db
 Patch0:		%{name}-linux.patch
 URL:		http://www.agocg.ac.uk/train/cgm/ralcgm.htm
 BuildRequires:	XFree86-devel
