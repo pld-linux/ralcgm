@@ -4,8 +4,6 @@ Name:		ralcgm
 Version:	3.50
 Release:	1
 Group:		Applications/Graphics
-Group(de):	Applikationen/Grafik
-Group(pl):	Aplikacje/Grafika
 License:	Sources non-profit - see README
 Source0:	ftp://ftp.cc.rl.ac.uk/pub/graphics/ralcgm/unix/%{name}-%{version}.tar.Z
 Patch0:		%{name}-linux.patch
