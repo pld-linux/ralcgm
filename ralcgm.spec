@@ -2,9 +2,9 @@ Summary:	CGM metafiles interpreter and translator
 Summary(pl):	Interpreter i konwerter plików CGM
 Name:		ralcgm
 Version:	3.50
-Release:	1
+Release:	2
 Group:		Applications/Graphics
-License:	Sources non-profit - see README
+License:	non-profit - see README
 Source0:	ftp://ftp.cc.rl.ac.uk/pub/graphics/ralcgm/unix/%{name}-%{version}.tar.Z
 Patch0:		%{name}-linux.patch
 URL:		http://www.agocg.ac.uk/train/cgm/ralcgm.htm
@@ -68,14 +68,12 @@ install bin/ralcgm $RPM_BUILD_ROOT%{_bindir}
 install data/* $RPM_BUILD_ROOT%{_datadir}/ralcgm
 install docs/ralcgm.man $RPM_BUILD_ROOT%{_mandir}/man1/ralcgm.1
 
-gzip -9nf README
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz
+%doc README
 %attr(755,root,root) %{_bindir}/*
 %{_datadir}/ralcgm
 %{_mandir}/man1/*
