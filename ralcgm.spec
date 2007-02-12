@@ -1,5 +1,5 @@
 Summary:	CGM metafiles interpreter and translator
-Summary(pl):	Interpreter i konwerter plikÛw CGM
+Summary(pl.UTF-8):   Interpreter i konwerter plik√≥w CGM
 Name:		ralcgm
 Version:	3.50
 Release:	3
@@ -20,12 +20,12 @@ Clear Text) or to view on a terminal or to send to a plotter
 
 It can be used as ImageMagick delegate to convert from CGM format.
 
-%description -l pl
-RAL-CGM jest programem do interpretowania i konwersji plikÛw CGM
-(Computer Graphics Metafile) do innych formatÛw lub w celu
-wy∂wietlenia albo wydrukowania.
+%description -l pl.UTF-8
+RAL-CGM jest programem do interpretowania i konwersji plik√≥w CGM
+(Computer Graphics Metafile) do innych format√≥w lub w celu
+wy≈õwietlenia albo wydrukowania.
 
-Moøe byÊ uøywany przez ImageMagick do konwersji z formatu CGM.
+Mo≈ºe byƒá u≈ºywany przez ImageMagick do konwersji z formatu CGM.
 
 %prep
 %setup -q -c
