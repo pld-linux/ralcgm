@@ -1,5 +1,5 @@
 Summary:	CGM metafiles interpreter and translator
-Summary(pl.UTF-8):   Interpreter i konwerter plików CGM
+Summary(pl.UTF-8):	Interpreter i konwerter plików CGM
 Name:		ralcgm
 Version:	3.50
 Release:	3
