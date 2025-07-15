@@ -29,7 +29,7 @@ Może być używany przez ImageMagick do konwersji z formatu CGM.
 
 %prep
 %setup -q -c
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 OPT="%{rpmcflags}" \
